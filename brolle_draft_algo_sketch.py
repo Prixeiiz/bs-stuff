@@ -2,12 +2,20 @@ maps = [
     {
         "name": "snake prairie",
         "mode": "bounty",
-        "best_picks": ["shelly", "bo", "buzz"],
+        "best_categories": ["tank", "assassin"],
+        "range_rating": 0
     },
     {
         "name": "safe zone",
         "mode": "heist",
-        "best_picks": ["colette", "angelo", "nani"]
+        "best_categories": ["tank_counter/DPS", "sniper", "tank"],
+        "range_rating": 80
+    },
+    {
+        "name": "shooting star",
+        "mode": "bounty",
+        "best_categories": ["sniper", "assassin", "thrower"],
+        "range_rating": 100
     }
 ]
 
@@ -25,7 +33,7 @@ brawlers = [
     },
     {
         "name": "colt",
-        "categories": ["sharpshooter", "tank_counter/DPS"],
+        "categories": ["sniper", "tank_counter/DPS"],
         "range": "long"
     },
     {
